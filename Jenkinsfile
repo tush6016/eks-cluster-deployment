@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'eks'}
+    agent {label 'master'}
 
     stages {
         stage('Clone') {
